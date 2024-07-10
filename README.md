@@ -14,15 +14,4 @@ This was my first attempt at creating a somewhat professional game using an enti
 elements of object-oriented programming in my course that was taught using C and my computer science class in my senior year of highschool using Java (which is relatively similar to C++ in my opinion)
 
 **IMPORTANT**
-If you want to download these files to run on your computer, put the files/folders listed into a new created folder named "src":
-include (folder)
-lib (folder)
-entity.cpp (file)
-main.cpp (file)
-math.cpp (file)
-renderwindow.cpp (file)
-
-And to run the game, make sure your Makefile is in the folder, and to run it all you need to do it make sure your terminal directory is to the game folder, 
-and just put "make" as the compiling word in the terminal
-
-Without these steps the code will not run as intended due to the Makefile containing code with the previously mentioned files being in an 'src' folder.
+To run the game just type "make" to compile the game, and "./main" to run the game
