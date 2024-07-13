@@ -15,3 +15,4 @@ elements of object-oriented programming in my course that was taught using C and
 
 **IMPORTANT**
 To run the game just type "make" to compile the game, and "./main" to run the game
+If you do not have CMake downloaded then just copy and paste the 2nd line of the contents in the Makefile into your terminal, and after that's done compiling, just type in "./main" to run the game.
