@@ -8,11 +8,11 @@ https://www.youtube.com/watch?v=KsG6dJlLBDw&list=PL2RPjWnJduNmXHRYwdtublIPdlqocB
 Gameplay loop and other logistical elements of the game were inspired from PolyMars' video on making a DS Game in 2020:
 https://www.youtube.com/watch?v=h7pq9hUMnog
 
-All textures were made by me using paint
+All textures were made by me using paint.
 
 This was my first attempt at creating a somewhat professional game using an entirely new language and development library, with my only prior experience with C++ was learning different
 elements of object-oriented programming in my course that was taught using C and my computer science class in my senior year of highschool using Java (which is relatively similar to C++ in my opinion)
 
 **IMPORTANT**
-To run the game just type "make" to compile the game, and "./main" to run the game
+To run the game just type "make" to compile the game, and "./main" to run the game.
 If you do not have CMake downloaded then just copy and paste the 2nd line of the contents in the Makefile into your terminal, and after that's done compiling, just type in "./main" to run the game.
