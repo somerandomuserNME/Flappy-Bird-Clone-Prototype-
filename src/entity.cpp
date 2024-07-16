@@ -9,8 +9,8 @@ Entity::Entity(Vector2f position, SDL_Texture* tex)
 {
     currentFrame.x = 0;
     currentFrame.y = 0;
-    currentFrame.w = 32;
-    currentFrame.h = 32;
+    currentFrame.w = 64; // Scaled by 2
+    currentFrame.h = 64; // Scaled by 2
 }
 
 SDL_Texture* Entity::getTex(){
@@ -26,8 +26,8 @@ SkyEntity::SkyEntity(Vector2f position, SDL_Texture* tex)
 {
     currentFrame.x = 0;
     currentFrame.y = 0;
-    currentFrame.w = 256;
-    currentFrame.h = 192;
+    currentFrame.w = 512; // Scaled by 2
+    currentFrame.h = 384; // Scaled by 2
 }
 
 BirdEntity::BirdEntity(Vector2f position, SDL_Texture* tex)
@@ -35,8 +35,8 @@ BirdEntity::BirdEntity(Vector2f position, SDL_Texture* tex)
 {
     currentFrame.x = 0;
     currentFrame.y = 0;
-    currentFrame.w = 16;
-    currentFrame.h = 11;
+    currentFrame.w = 32; // Scaled by 2
+    currentFrame.h = 22; // Scaled by 2
 }
 
 PipeEntity::PipeEntity(Vector2f position, SDL_Texture* tex)
@@ -44,14 +44,14 @@ PipeEntity::PipeEntity(Vector2f position, SDL_Texture* tex)
 {
     currentFrame.x = 0;
     currentFrame.y = 0;
-    currentFrame.w = 30;
-    currentFrame.h = 100;
+    currentFrame.w = 60; // Scaled by 2
+    currentFrame.h = 200; // Scaled by 2
 }
 
 PipeEntity::PipeEntity()
     : Entity(Vector2f(0, 0), nullptr) { // Initialize with default values
     currentFrame.x = 0;
     currentFrame.y = 0;
-    currentFrame.w = 30; // Adjust the dimensions as necessary
-    currentFrame.h = 100; // Adjust the dimensions as necessary
+    currentFrame.w = 60; // Scaled by 2
+    currentFrame.h = 200; // Scaled by 2
 }
