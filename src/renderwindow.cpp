@@ -56,8 +56,8 @@ void RenderWindow::render(Entity& entity){
     SDL_Rect destination;
     destination.x = entity.getPos().x;
     destination.y = entity.getPos().y;
-    destination.w = entity.getCurrentFrame().w * 4;
-    destination.h = entity.getCurrentFrame().h * 4;
+    destination.w = entity.getCurrentFrame().w;
+    destination.h = entity.getCurrentFrame().h;
 
     SDL_RenderCopy(renderer, entity.getTex(), &source, &destination);
 }
