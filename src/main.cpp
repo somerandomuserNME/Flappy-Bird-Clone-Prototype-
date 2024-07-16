@@ -31,7 +31,7 @@ int main(int argc, char* argv[]) {
         return -1;
     }
 
-    RenderWindow window("FlappyBird Clone ~ Prototype", 256, 192);
+    RenderWindow window("FlappyBird Clone ~ Prototype", 1024, 768);
     int windowRefreshRate = window.getRefreshRate();
 
     SDL_Texture* sky = window.loadTexture("res/sky.png");
