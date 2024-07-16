@@ -160,7 +160,7 @@ int main(int argc, char* argv[]) {
                             p.ceilingPipe.getCurrentFrame().h
                         };
 
-                        if (!collisionFlag && (checkCollision(birdBoundBox, bottomPipeBoundBox) || checkCollision(birdBoundBox, ceilingPipeBoundBox))) {
+                        if (!collisionFlag && (checkCollision(birdBoundBox, bottomPipeBoundBox) || checkCollision(birdBoundBox, ceilingPipeBoundBox) || birdy.getPos().y <= 0 || birdy.getPos().y + birdy.getCurrentFrame().h >= 192)) {
                             //std::cout << "Collision detected!" << std::endl;
                             collisionFlag = true; //so that the event corresponding to the up-key being pressed is disabled
                             birdSpeed = 400.0f;
